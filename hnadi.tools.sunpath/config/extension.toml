@@ -1,0 +1,21 @@
+[package]
+version = "1.0.0"
+authors = ["HNADI"]
+title = "Sunpath Extension"
+description="The Extension simulate the sunlight and draw the precise sunpath diagram."
+readme  = "docs/README.md"
+repository = ""
+category = "Scene"
+keywords = ["kit", "scene", "sunpath"]
+changelog = "docs/CHANGELOG.md"
+preview_image = "data/preview.png"
+icon = "data/icon.png"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.kit.viewport.utility" = {}
+"omni.ui.scene" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "hnadi.tools.sunpath"
