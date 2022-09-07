@@ -88,7 +88,7 @@ SunPath is the diagram to show the path of the sun, sometimes also called day ar
 
 ![utlity](./data/utlity.png)
 - **Utlity**: To make this extension work correctly, you need to open the viewport utlity in the extensions manager first.
-- **Pckage**: This extension relies on the python package(pyephem-SunPath) to generate key Sun data. Therefore, the first use will wait for a short time.
+- **Package**: This extension relies on the python package(pyephem-SunPath) to generate key Sun data. Therefore, the first use will wait for a short time.
 - **Coordinate system**: Coordinate system conversion has not been set in the current version of this extension, it was created based on XZ plane. You need to pay attention to whether the coordinate system of the imported USD is inconsistent.
 
 
